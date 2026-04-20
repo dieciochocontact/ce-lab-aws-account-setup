@@ -1,7 +1,7 @@
 # AWS Account Setup Lab - Solution
 
-**Student Name:** [Your Name]  
-**Date Completed:** [Date]
+**Student Name:** Anderson Fernandes 
+**Date Completed:** 20/04/2026
 
 ---
 
@@ -12,8 +12,8 @@
 
 ### Notes:
 - Authenticator app used: [Google Authenticator / Microsoft Authenticator / Authy]
-- MFA setup completed successfully: [Yes / No]
-- Backup codes saved: [Yes / No]
+- MFA setup completed successfully: Yes
+- Backup codes saved: Yes
 
 ---
 
@@ -31,8 +31,8 @@
 ![SNS Confirmed](screenshots/sns-confirmed.png)
 
 ### Configuration Details:
-- Alert threshold: $[amount]
-- Email confirmed: [Yes / No]
+- Alert threshold: $10
+- Email confirmed: Yes
 - Additional thresholds created (bonus): [Yes / No - if yes, list amounts]
 
 ---
@@ -43,9 +43,9 @@
 ![Account Alias](screenshots/account-alias.png)
 
 ### Account Details:
-- **Account Alias:** [your-alias-here]
-- **Sign-In URL:** `https://[your-alias].signin.aws.amazon.com/console`
-- **Tested successfully:** [Yes / No]
+- **Account Alias:** anderson-ironhack-bootcamp
+- **Sign-In URL:** `https://anderson-ironhack-bootcamp.signin.aws.amazon.com/console`
+- **Tested successfully:** Yes
 
 ---
 
