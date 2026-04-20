@@ -124,7 +124,12 @@ No unexpected use
 - [ ] $50 threshold
 
 **Screenshots (if completed):**
-[Add screenshots here]
+![MFA Enabled](screenshots/mfa-enabled.png)
+![Billing Preferences](screenshots/billing-preferences.png)
+![Billing Alarm](screenshots/billing-alarm.png)
+![SNS Confirmed](screenshots/sns-confirmed.png)
+![Account Alias](screenshots/account-alias.png)
+![Free Tier Dashboard](screenshots/free-tier-dashboard.png)
 
 ---
 
@@ -152,19 +157,20 @@ No unexpected use
 
 **What was the most challenging part of this lab?**
 
-[Your answer]
+Making the billing alerts due to the option of cloud watch was disabled.
 
 ---
 
 **What would you do differently next time?**
 
-[Your answer]
+Reading the instructions slower
 
 ---
 
 **What security practices will you implement going forward?**
 
-[Your answer]
+I will avoid using the root account for daily tasks and only use it for some essential actions.
+Enable MFA and monitor mi account every week.
 
 ---
 
@@ -181,5 +187,5 @@ No unexpected use
 
 ---
 
-**Lab Completed By:** [Your Name]  
-**Date:** [Date]
+**Lab Completed By:** Anderson  
+**Date:** 20/04/2026
