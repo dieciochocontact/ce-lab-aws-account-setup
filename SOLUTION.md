@@ -58,13 +58,14 @@
 
 | Service | Current Usage | Free Tier Limit | Status |
 |---------|--------------|-----------------|--------|
-| EC2 | [X hours / 750 hours] | 750 hours/month | [Green/Yellow/Red] |
-| S3 | [X GB / 5 GB] | 5 GB | [Green/Yellow/Red] |
-| [Other services...] | | | |
+| EC2 | [X hours / 750 hours] | 750 hours/month | Green |
+| S3 | [X GB / 5 GB] | 5 GB | Green |
+| AWS Service Catalog | 1 API Calls | 2 API Calls | Green |
+| AWS Glue | 6 Requests | 9 Requests | Green |
 
 ### Notes:
-- Any services approaching limits? [Yes / No - if yes, which ones?]
-- Any unexpected usage? [Yes / No - if yes, describe]
+- Any services approaching limits? No
+- Any unexpected usage? No
 
 ---
 
@@ -73,43 +74,44 @@
 ### 1. Why is MFA important even for a personal learning account?
 
 **Your Answer:**
-[Write your answer here. Consider: What could happen if someone gained access to your account? What damage could they do? What costs could they incur?]
+Because even if a i am testing things, my AWS account is still linked to payment method. If someone has acces to my acout they can use a lot of resources and i can have surprieses in the billing.
 
 ---
 
 ### 2. What would happen if you left your root user unprotected?
 
 **Your Answer:**
-[Write your answer here. Think about: What access does root user have? What could an attacker do? How would you recover?]
+That someone can taje full control without limits and start expensive services only with my pasword.
 
 ---
 
 ### 3. How do billing alerts help prevent unexpected charges?
 
 **Your Answer:**
-[Write your answer here. Consider: When do you get notified? What actions can you take? Why is proactive monitoring important?]
+Because in AWS you can keep running services generating costs unless you stop them and alerts help you to realise that. You get notified when you rech the budget you set. Proactive monitoring is important to have all in control to see if all is doing great.
 
 ---
 
 ### 4. What threshold did you set for your billing alert and why?
 
 **Your Answer:**
-[Write your answer here. Explain: Why did you choose this amount? Is it appropriate for your usage? Would you set multiple thresholds?]
+Its low enough to warn you fast is something is not working correctly. For learning i think its aproppiate. Yes i would set more but i dont think its necessary for my usage.
 
 ---
 
 ### 5. What is your account alias and why did you choose it?
 
 **Your Answer:**
-- **Alias:** [your-alias]
-- **Reasoning:** [Why did you choose this name? What makes it memorable and professional?]
+- **Alias:** anderson-ironhack
+- **Reasoning:** I choose that name becasue its easy to remember because my name is anderson and i am in the ironhack bootcamp.
 
 ---
 
 ### 6. What services are you currently using according to the Free Tier dashboard?
 
 **Your Answer:**
-[List the services you're using and their current usage levels. Are you surprised by any usage?]
+AWS Service Catalog, AWS Key Management Service, AWS Glue, Amazon Simple Queue Service, Amazon Simple Notification Service, Amazon Simple Notification Service
+No unexpected use
 
 ---
 
